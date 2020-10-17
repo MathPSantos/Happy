@@ -7,7 +7,7 @@ import { FiArrowLeft, FiPlus } from "react-icons/fi";
 
 import mapMarkerImg from '../images/map-marker.svg';
 
-import '../styles/pages/create-orphanage.css';
+import './styles.css';
 
 const happyMapIcon = L.icon({
   iconUrl: mapMarkerImg,
