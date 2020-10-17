@@ -1,6 +1,4 @@
-import { imageOverlay } from "leaflet";
 import React, { useEffect, useState } from "react";
-import { FaWhatsapp } from "react-icons/fa";
 import { FiClock, FiInfo } from "react-icons/fi";
 import { Map, Marker, TileLayer } from "react-leaflet";
 import { useParams } from "react-router-dom";
@@ -120,16 +118,11 @@ export default function Orphanage() {
               ) : (
                 <div className="open-on-weekends dont-open">
                   <FiInfo size={32} color="#FF6690" />
-                  Não tendemos <br />
+                  Não atendemos <br />
                   fim de semana
                 </div>
               )}
             </div>
-
-            {/* <button type="button" className="contact-button">
-              <FaWhatsapp size={20} color="#FFF" />
-              Entrar em contato
-            </button> */}
           </div>
         </div>
       </main>
